@@ -18,6 +18,14 @@
       {
         "network": "Linkedin Profile",
         "url": "https://www.linkedin.com/in/sruthiprasoodusha/"
+      },
+      {
+        "network": "Google Scholar",
+        "url": "https://scholar.google.com/citations?user=VW9DT90AAAAJ&hl=en&oi=ao"
+      },
+      {
+        "network": "Orcid",
+        "url": "https://orcid.org/0000-0002-4335-535X"
       }
     ]
   },
