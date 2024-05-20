@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Dr. Sruthi Prasood Usha # the website title (if blank, full name will be used instead)
-first_name: Dr.Sruthi
+title: blank # the website title (if blank, full name will be used instead)
+first_name: Sruthi
 middle_name: Prasood
 last_name: Usha
 email: srus@tf.uni-kiel.de
