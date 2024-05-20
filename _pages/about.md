@@ -23,18 +23,3 @@ Previously, I was a National Postdoctoral Researcher at the Biosensors Laborator
 
 I have extensive experience in R&D, peer review, scientific editing, project management, and grant proposal submissions. I review for Elsevier and Royal Society of Chemistry journals and have a decade of experience publishing research articles. I am well-versed in the peer-review process and manuscript handling systems.
 
-
-<footer class="footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <a href="https://www.uni-kiel.de/en/" target="_blank" rel="noopener noreferrer">
-          <img src="{{ site.baseurl }}/assets/img/uni_kiel_logo.png" alt="University of Kiel" style="width: 100px; margin: 0 10px;">
-        </a>
-        <a href="https://www.humboldt-foundation.de/" target="_blank" rel="noopener noreferrer">
-          <img src="{{ site.baseurl }}/assets/img/humboldt_logo.png" alt="Humboldt Foundation" style="width: 100px; margin: 0 10px;">
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
