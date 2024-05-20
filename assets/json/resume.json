@@ -61,14 +61,15 @@
       "name": "Biomedical Engineering Group, Indian Institute of Technology Madras",
       "position": "     National Post-Doctoral Fellow, SERB",
       "url": "https://www.soilmonitor.org/",
-      "startDate": "2023-02-01",
-      "endDate": "",
-      "summary": "Development of a miniaturized sensor system for continuous soil-nutrient monitoring based on the integration of a lab-on-a-chip microfluidic cartridge with an optoelectronic detection unit.",
+      "startDate": "2019-05-01",
+      "endDate": "2021-04-01",
+      "summary": "Development of a direct, dip and sense probe for the ultra-trace level detection of Ochratoxin-A (OTA).",
       "highlights": [
-        "Chemical Assay",
-        "Nanozymes",
-        "Covalent Organic Frameworks",
-        "Ion Imprinted Polymers"
+        "Optical Sensors for Healthcare Applications",
+        "Localized Surface Plasmon Resonance (LSPR)",
+        "Labelled and Label-free Immunoassay",
+        "Nanoparticles & Metal-Organic Frameworks (MOFs)",
+        "Mycotoxin and Heavy Metal Detection"
       ]
     }
   ],
