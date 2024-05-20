@@ -1,6 +1,6 @@
 ---
-layout: about
-title: about
+layout: About
+title: About
 permalink: /
 subtitle: Humboldt Fellow | Research Scientist
 profile:
@@ -23,5 +23,4 @@ Recently, I completed my tenure as a National Postdoctoral Researcher, funded by
 
 I have experience in research & development, peer review, scientific editing, project management, and grant proposal submissions. I am also a reviewer for Elsevier journals and the Royal Society of Chemistry's journals. Additionally, I have experience publishing research articles in scientific journals over the last ten years. I understand the peer-review process well and have experience with manuscript handling systems.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
