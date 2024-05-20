@@ -5,32 +5,48 @@
     "image": "",
     "email": "srus@tf.uni-kiel.de",
     "phone": "(+49)431 880 6285",
-    "url": "https://www.drsruthi.in",
+    "url": "https://www.tf.uni-kiel.de/matwis/bmbt/en/people/dr-sruthi-prasood-usha",
     "summary": "Revolutionizing In-home Breath Profiling with Smart Sensor Innovation",
     "location": {
       "address": "Kaiserstr. 2, R. A-116a",
       "postalCode": "24105",
       "city": "Kiel",
-      "countryCode": "DE",
-      "region": "Schleswig-Holstein"
+      "region": "Schleswig-Holstein",
+      "countryCode": "Germany"
     },
     "profiles": [
       {
-        "network": "Linkedin",
+        "network": "Linkedin Profile",
         "url": "https://www.linkedin.com/in/sruthiprasoodusha/"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "Bioinspired Materials & Biosensor Technologies, Christian-Albrechts-Universität zu Kiel",
+      "position": "Humboldt Researcher",
+      "url": "https://www.tf.uni-kiel.de/matwis/bmbt/en",
+      "startDate": "2024-02-01",
+      "endDate": "",
+      "summary": "Developement of an optical chemosensory smart sensing platform that supports the idea of in-home respiratory health care. ",
       "highlights": [
-        "Relativity"
+        "Lab-on-Fiber",
+        "Breath Profiling",
+        "Disease Prognosis and Monitoring"
+      ]
+    },
+    {
+      "name": "Bioinspired Materials & Biosensor Technologies, Christian-Albrechts-Universität zu Kiel",
+      "position": "Research Scientist",
+      "url": "https://www.soilmonitor.org/",
+      "startDate": "2023-02-01",
+      "endDate": "",
+      "summary": "Development of a miniaturized sensor system for continuous soil-nutrient monitoring based on the integration of a lab-on-a-chip microfluidic cartridge with an optoelectronic detection unit.",
+      "highlights": [
+        "Chemical Assay",
+        "Nanozymes",
+        "Covalent Organic Frameworks",
+        "Ion Imprinted Polymers"
       ]
     }
   ],
