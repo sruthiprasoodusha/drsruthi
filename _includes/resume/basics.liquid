@@ -2,8 +2,7 @@
   {% assign skip_basics = 'image' | split: ',' %}
   {% for content in data[1] %}
     {%
-      if (content[1] == "") or (skip_basics contains
-      content[0])
+      if (content[1] == "") or (skip_basics contains content[0])
     %}
       {% continue %}
     {% endif %}
@@ -19,6 +18,13 @@
           <a href="mailto:{{ content[1] }}" target="_blank">{{ content[1] }}</a>
         {% elsif content[0] == 'phone' %}
           <a href="tel:{{ content[1] }}">{{ content[1] }}</a>
+        {% elsif content[0] == 'location' %}
+          {{ content[1]['address'] }}, {{ content[1]['postalCode'] }} {{ content[1]['city'] }}, {{ content[1]['countryCode'] }}, {{ content[1]['region'] }}
+        {% elsif content[0] == 'profiles' %}
+          {% for profile in content[1] %}
+            <a href="{{ profile['url'] }}" target="_blank">{{ profile['network'] }}</a>
+            {% if forloop.last == false %}, {% endif %}
+          {% endfor %}
         {% else %}
           {{ content[1] }}
         {% endif %}
