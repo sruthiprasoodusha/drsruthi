@@ -2,8 +2,8 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: Sruthi
+title: Dr. Sruthi Prasood Usha # the website title (if blank, full name will be used instead)
+first_name: Dr.Sruthi
 middle_name: Prasood
 last_name: Usha
 email: srus@tf.uni-kiel.de
@@ -12,8 +12,8 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
 
 keywords: # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+lang: en, de # the language of your site (for example: en, fr, cn, ru, etc.)
+icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://drsruthi.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
