@@ -75,11 +75,11 @@
   ],
   "education": [
     {
-      "institution": "Indian Institute of Technology Delhi",
-      "location": "New Delhi, India",
+      "institution": "  Indian Institute of Technology Delhi",
+      "location": "New Delhi, India  ",
       "url": "https://home.iitd.ac.in/",
       "area": "Fiber Optic Sensors",
-      "studyType": "Ph.D",
+      "studyType": "    Ph.D",
       "startDate": "2014",
       "endDate": "2018",
     ]
