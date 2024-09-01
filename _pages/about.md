@@ -5,7 +5,7 @@ permalink: /
 subtitle: Humboldt Fellow | Research Scientist
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_color.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>880-6285</p>
