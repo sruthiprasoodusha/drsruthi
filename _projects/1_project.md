@@ -1,17 +1,18 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: A direct, dip and sense probe for the ultra-trace level detection of Ochratoxin-A (OTA).
+<!-- description: a project with a background image 
+img: assets/img/12.jpg -->
 importance: 1
 category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
+Investigated a prototypical approach to develop a direct, dip and sense probe for the ultra-trace level detection of Ochratoxin-A (OTA). An effective strategy for detecting ultra-low
+concentrations of small molecules has been developed utilizing zeolitic imidazole framework -8 (ZIF-8), which encapsulate antibodies, over gold nanoparticles on a U-bent optical fiber tip. The study demonstrated
+OTA detection in spiked grape juice to support food safety, for which a patent has been filed and a manuscript is underway. Another work on heavy metal ion detection from environmental samples using
+MOF was also carried out, and the manuscript has been submitted to the ACS journal. 
+<!--
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
     ---
@@ -77,5 +78,6 @@ Here's the code for the last row of images above:
   </div>
 </div>
 ```
+-->
 
 {% endraw %}
