@@ -3,30 +3,26 @@
   contents:
     - name: Full Name
       value: Sruthi Prasood Usha
-    - name: Date of Birth
-      value: 14th March 1879
     - name: Languages
       value: English, Malayalam, Hindi
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D
+      institution: Indian Institute of Technology Delhi, New Delhi, India
+      year: 2018
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - CGPA - 9.5/10
+        - Dissertation - “Surface Plasmon and Lossy Mode Resonance based Fiber Optic Chemical and Biosensors Utilizing Zinc Oxide.”
+        
+    - title: Master of Technology (M.Tech) in Optoelectronics and Laser Technology
+      institution: International School of Photonics, Cochin University of Science and Technology (CUSAT) Kerala, India
+      year: 2013
       description:
-        - Description 1.
-        - Description 2.
+        - CGPA - 9.36/10
+        - Dissertation - “Digital Holography and its Applications for the Measurement of Temperature of Gaseous Flames.”
+
 
 - title: Experience
   type: time_table
