@@ -17,9 +17,7 @@ news: true # includes a list of news items
 #selected_papers: true # includes a list of papers marked as "selected={true}"
 #social: true # includes social icons at the bottom of the page
 ---
-I am an early career researcher specializing in Fiber Optic Sensor Research. Currently, I work with Prof. Dr. Zeynep Altintas at Christian-Albrechts-Universität zu Kiel, developing a continuous soil nutrient sensor to enhance agriculture by providing real-time soil nutrient data. This innovation helps farmers optimize fertilization and irrigation, promoting sustainable crop production.
+I am a researcher specializing in Applied Optics and Materials Engineering, focused on developing Customized Nano-Interfaces and Sensor Platforms for medical diagnostics, environmental monitoring, and agro-food safety. With a deep expertise in fiber optics, sensor engineering, nanotechnology, and material science, I have created robust optical sensing platforms that address specific targets by optimizing transducer-receptor interfaces. My work includes designing miniaturized, disposable fiber optic probes and ultra-compact labs for precise, on-site measurements, ideal for chem-bio-sensing and point-of-care testing.
 
-Previously, I was a National Postdoctoral Researcher at the Biosensors Laboratory, IIT Madras, funded by SERB, DST, Government of India, under Dr. V. V. Raghavendra Sai. I earned my PhD from IIT Delhi in Prof. B. D. Gupta's Fiber Optic Sensors lab. I also served as an Institute Postdoctoral Fellow and Senior Project Scientist at IIT Madras.
-
-I have extensive experience in R&D, peer review, scientific editing, project management, and grant proposal submissions. I review for Elsevier and Royal Society of Chemistry journals and have a decade of experience publishing research articles. I am well-versed in the peer-review process and manuscript handling systems.
+Currently, I am leading an Alexander von Humboldt Foundation-funded project aimed at developing a Lab-on-a-Tip Fiber system for respiratory disease prognosis through breathomics. Additionally, as part of the EU SOILMONITOR project, I am creating chemical assays for soil nutrient detection, incorporating bioinspired materials like nanozymes and ion-imprinted polymers, along with MOFs and COFs, designed for integration with lab-on-a-chip microfluidic cartridges and optoelectronic systems.
 
