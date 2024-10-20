@@ -1,7 +1,7 @@
 <div class="grid-sizer"></div>
-<div class="grid-item">
+<div class="grid-item" style="width: 400px;"> <!-- Set the card width here -->
   <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
-    <div class="card hoverable">
+    <div class="card hoverable" style="max-width: 100%;"> <!-- Set max-width to ensure card fits the container -->
       {% if project.img %}
         {%
           include figure.liquid
