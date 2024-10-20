@@ -3,7 +3,7 @@ layout: page
 title: A Direct, Dip and Sense Probe for the Ultra-Trace Level Detection of Ochratoxin-A (OTA).
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 Investigated a prototypical approach to develop a direct, dip and sense probe for the ultra-trace level detection of Ochratoxin-A (OTA). An effective strategy for detecting ultra-low
