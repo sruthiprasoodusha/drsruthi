@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Publications · Dr. Sruthi Prasood Usha</title>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/publications.css" />
+    <script id="scholar-data" type="application/json">
+{
+  "source": "Google Scholar",
+  "updated": "2026-01-18",
+  "since_year": 2021,
+  "all": { "citations": 1361, "h_index": 19, "i10_index": 20 },
+  "since": { "citations": 854, "h_index": 17, "i10_index": 19 },
+  "citations_per_year": {
+    "2019": 108,
+    "2020": 135,
+    "2021": 148,
+    "2022": 192,
+    "2023": 199,
+    "2024": 142,
+    "2025": 166,
+    "2026": 7
+  }
+}
+    </script>
+</head>
+
+<body>
+
+    <!-- HEADER (same as homepage) -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <div class="brand">
+                <a href="index.html" class="brand-link" aria-label="Go to homepage">
+                    <img src="assets/img/owl-only.svg" alt="Owl logo" class="logo" />
+                    <div class="brand-text">
+                        <span class="brand-line primary">Dr. Sruthi</span>
+                        <span class="brand-line secondary">Prasood</span>
+                        <span class="brand-line secondary">Usha, Ph.D.</span>
+                    </div>
+                </a>
+            </div>
+
+            <nav class="nav" aria-label="Primary">
+                <a href="about.html">About</a>
+                <a href="publications.html" class="active" aria-current="page">Publications</a>
+                <a href="projects.html">Projects</a>
+                <a href="cv.html">CV</a>
+
+            </nav>
+
+
+        </div>
+    </header>
+
+    <main>
+        <section class="pubs-top">
+            <div class="container">
+                <h1>Publications</h1>
+                <p class="page-intro">
+                    Peer-reviewed articles, conferences, preprints, and patents.
+                </p>
+
+                <div class="pubs-grid">
+
+                    <!-- LEFT: controls + list -->
+                    <div class="pubs-left">
+
+                        <div class="pub-controls">
+                            <label class="sr-only" for="pub-search">Search publications</label>
+                            <input id="pub-search" class="pub-search" type="search"
+                                placeholder="Search by title, author, venue, keyword…" />
+
+                            <div class="pub-filters">
+                                <button class="chip active" data-filter="all" type="button">All</button>
+                                <button class="chip" data-filter="journal" type="button">Journal</button>
+                                <button class="chip" data-filter="conference" type="button">Conference</button>
+                                <button class="chip" data-filter="preprint" type="button">Preprint</button>
+                                <button class="chip" data-filter="patent" type="button">Patent</button>
+
+                                <label class="toggle">
+                                    <input id="selected-only" type="checkbox" />
+                                    <span>Selected only</span>
+                                </label>
+
+                                <div class="sort">
+                                    <label for="pub-sort" class="sr-only">Sort</label>
+                                    <select id="pub-sort">
+                                        <option value="year_desc" selected>Year ↓</option>
+                                        <option value="year_asc">Year ↑</option>
+                                        <option value="title_asc">Title A→Z</option>
+                                        <option value="title_desc">Title Z→A</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Publication list placeholder (we’ll render from BibTeX/JSON later) -->
+                        <section id="pub-list" class="pub-list" aria-label="Publication list"></section>
+
+                    </div>
+
+                    <!-- RIGHT: scholar widget -->
+                    <aside class="pubs-right">
+                        <div class="scholar-card" id="scholar-card" aria-label="Google Scholar metrics">
+                            <div class="scholar-head">
+                                <div class="scholar-title">Cited by</div>
+                                <div class="scholar-updated" id="scholar-updated"></div>
+                            </div>
+
+                            <div class="scholar-tabs" role="tablist" aria-label="Metrics view">
+                                <button class="tab active" id="tab-all" type="button" role="tab" aria-selected="true"
+                                    aria-controls="scholar-metrics">All</button>
+                                <button class="tab" id="tab-since" type="button" role="tab" aria-selected="false"
+                                    aria-controls="scholar-metrics">Since</button>
+                            </div>
+
+                            <div class="scholar-metrics" id="scholar-metrics">
+                                <table class="metrics-table" aria-label="Citation metrics">
+                                    <thead>
+                                        <tr>
+                                            <th></th>
+                                            <th class="col-all">All</th>
+                                            <th class="col-since" id="since-year-col">Since</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Citations</td>
+                                            <td class="col-all" id="m-all-citations">–</td>
+                                            <td class="col-since" id="m-since-citations">–</td>
+                                        </tr>
+                                        <tr>
+                                            <td>h-index</td>
+                                            <td class="col-all" id="m-all-h">–</td>
+                                            <td class="col-since" id="m-since-h">–</td>
+                                        </tr>
+                                        <tr>
+                                            <td>i10-index</td>
+                                            <td class="col-all" id="m-all-i10">–</td>
+                                            <td class="col-since" id="m-since-i10">–</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                                <div class="chart-wrap">
+                                    <div id="scholar-chart" aria-label="Citations per year chart"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+
+            <div class="footer-logos" aria-label="Affiliations and funding institutions">
+                <img src="assets/img/uni_kiel_logo.png"
+                    alt="Kiel University – Christian-Albrechts-Universität zu Kiel" />
+
+                <img src="assets/img/humboldt_logo.png" alt="Alexander von Humboldt Foundation" />
+
+                <img src="assets/img/iitm_logo.png" alt="Indian Institute of Technology Madras" />
+
+                <img src="assets/img/iitd_logo.png" alt="Indian Institute of Technology Delhi" />
+            </div>
+
+            <div class="footer-text">
+                © Dr. Sruthi Prasood Usha
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="assets/js/scholar_widget.js"></script>
+    <script src="assets/js/publications.js"></script>
+</body>
+
+
+</html>

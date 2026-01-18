@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects · Dr. Sruthi Prasood Usha</title>
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/projects.css" />
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <div class="brand">
+        <a href="index.html" class="brand-link" aria-label="Go to homepage">
+          <img src="assets/img/owl-only.svg" alt="Owl logo" class="logo" />
+          <div class="brand-text">
+            <span class="brand-line primary">Dr. Sruthi</span>
+            <span class="brand-line secondary">Prasood</span>
+            <span class="brand-line secondary">Usha, Ph.D.</span>
+          </div>
+        </a>
+      </div>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="about.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="projects.html" class="active" aria-current="page">Projects</a>
+        <a href="cv.html">CV</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="projects-page">
+
+    <!-- HERO -->
+    <section class="projects-hero">
+      <div class="container projects-hero-grid">
+
+        <div class="hero-copy">
+          <h1>Projects</h1>
+          <p class="lede">
+            Fiber-integrated sensing systems and nano-engineered interfaces for breath VOC profiling,
+            point-of-care diagnostics, and environmental/agro-food monitoring.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn primary" href="#featured">Featured</a>
+            <a class="btn" href="#all-projects">All projects</a>
+          </div>
+        </div>
+
+        <div class="hero-filters" aria-label="Project filters">
+          <div class="filter-title">Themes</div>
+
+          <!-- Search + Clear -->
+          <div class="filter-tools">
+            <input id="projectSearch" type="search" placeholder="Search projects…" autocomplete="off" />
+            <button id="clearFilters" class="btn small" type="button">Clear</button>
+          </div>
+
+          <!-- Clickable chips -->
+          <div class="chips" aria-label="Filter by theme">
+            <span class="chip" data-tag="breath voc">Breath VOC</span>
+            <span class="chip" data-tag="lab-on-fiber">Lab-on-Fiber</span>
+            <span class="chip" data-tag="mofs">MOFs</span>
+            <span class="chip" data-tag="plasmonics">Plasmonics</span>
+            <span class="chip" data-tag="microfluidics">Microfluidics</span>
+            <span class="chip" data-tag="soil nutrients">Soil nutrients</span>
+            <span class="chip" data-tag="optical biosensing">Optical biosensing</span>
+          </div>
+
+          <!-- Status line (updated by JS) -->
+          <div id="filterStatus" class="note" aria-live="polite"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FEATURED -->
+    <section class="projects-section" id="featured">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured projects</h2>
+          <p class="muted">
+            Flagship research directions with mature prototypes and/or funded work packages.
+          </p>
+        </div>
+
+        <div class="featured-grid">
+
+          <!-- Featured card 1 -->
+          <article class="project-card featured"
+            data-tags="breath voc,lab-on-fiber,mofs,plasmonics,optical biosensing,point-of-care">
+            <div class="card-top">
+              <div class="badge-row">
+                <span class="badge">AvH</span>
+                <span class="badge">CAU Kiel</span>
+              </div>
+              <a class="anchor-link" href="#p-lof-breath" aria-label="Jump to project details">Details →</a>
+            </div>
+
+            <h3>Lab-on-Fiber breath VOC profiling</h3>
+            <div class="meta">2024–present · Humboldt Postdoctoral Fellowship · Kiel University</div>
+
+            <ul class="bullets">
+              <li><strong>Goal:</strong> on-site breath analysis for personalized respiratory monitoring.</li>
+              <li><strong>Novelty:</strong> fiber-integrated hybrid photonic–plasmonic platform with selective
+                nano-interfaces.</li>
+              <li><strong>Output:</strong> prototype workflow + validation roadmap (GC–MS correlation / clinical
+                pathway).</li>
+            </ul>
+
+            <div class="tags">
+              <span>#BreathVOC</span><span>#LabOnFiber</span><span>#Resonators</span><span>#Selectivity</span>
+            </div>
+          </article>
+
+          <!-- Featured card 2 -->
+          <article class="project-card featured"
+            data-tags="microfluidics,soil nutrients,optical biosensing,colorimetry,environmental monitoring,agro-food">
+            <div class="card-top">
+              <div class="badge-row">
+                <span class="badge">EU</span>
+                <span class="badge">SOILMONITOR</span>
+              </div>
+              <a class="anchor-link" href="#p-soilmonitor" aria-label="Jump to project details">Details →</a>
+            </div>
+
+            <h3>Microfluidic assays for soil nutrient monitoring</h3>
+            <div class="meta">2024–2025 · EU project contribution · Bioinspired chemistry + microfluidics</div>
+
+            <ul class="bullets">
+              <li><strong>Goal:</strong> precise detection of soil nutrients for sustainable agriculture.</li>
+              <li><strong>Novelty:</strong> bioinspired chemical assays optimized for miniaturized formats.</li>
+              <li><strong>Output:</strong> assay design + integration-ready protocols for field workflows.</li>
+            </ul>
+
+            <div class="tags">
+              <span>#Microfluidics</span><span>#SoilNutrients</span><span>#Colorimetry</span><span>#Sensing</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ALL PROJECTS GRID -->
+    <section class="projects-section alt" id="all-projects">
+      <div class="container">
+        <div class="section-head">
+          <h2>All projects</h2>
+          <p class="muted">A compact overview. Each card links to a detailed block below.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card" data-tags="optical biosensing,lmr,fiber sensors,plasmonics,agro-food">
+            <div class="card-top">
+              <div class="badge-row">
+                <span class="badge">SERB</span>
+                <span class="badge">IIT Madras</span>
+              </div>
+              <a class="anchor-link" href="#p-lmr-array">Details →</a>
+            </div>
+
+            <h3>Lossy-mode resonance (LMR) biosensor array platform</h3>
+            <div class="meta">2019–2021 · National Postdoctoral Fellowship · IIT Madras</div>
+
+            <ul class="bullets">
+              <li>Fiber-optic biosensor array platform for food safety target(s).</li>
+              <li>Design + fabrication workflow (coatings, readout, validation plan).</li>
+            </ul>
+
+            <div class="tags">
+              <span>#LMR</span><span>#FiberSensors</span><span>#Biosensing</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="plasmonics,spr,lmr,zno,fiber optics,optical biosensing">
+            <div class="card-top">
+              <div class="badge-row">
+                <span class="badge">PhD</span>
+                <span class="badge">IIT Delhi</span>
+              </div>
+              <a class="anchor-link" href="#p-phd-zno">Details →</a>
+            </div>
+
+            <h3>Plasmonic + LMR fiber chemical/biosensors with ZnO</h3>
+            <div class="meta">2014–2018 · Ph.D. research · IIT Delhi</div>
+
+            <ul class="bullets">
+              <li>Surface plasmon resonance + LMR transduction in fiber platforms.</li>
+              <li>Nano-structured ZnO interfaces for sensitivity and robustness.</li>
+            </ul>
+
+            <div class="tags">
+              <span>#SPR</span><span>#LMR</span><span>#ZnO</span><span>#FiberOptics</span>
+            </div>
+          </article>
+
+          <article class="project-card" data-tags="mofs,aunps,bioinspired materials,optical biosensing,selectivity">
+            <div class="card-top">
+              <div class="badge-row">
+                <span class="badge">Methods</span>
+                <span class="badge">Cross-cutting</span>
+              </div>
+              <a class="anchor-link" href="#p-materials">Details →</a>
+            </div>
+
+            <h3>Nano-engineered interfaces: MOFs, AuNPs, bioinspired materials</h3>
+            <div class="meta">Ongoing · Materials engineering for selectivity + stability</div>
+
+            <ul class="bullets">
+              <li>Selective uptake/interaction layers for gas and biomarker sensing.</li>
+              <li>Plasmonic enhancement strategies and scalable coating routes.</li>
+            </ul>
+
+            <div class="tags">
+              <span>#MOFs</span><span>#AuNPs</span><span>#Bioinspired</span>
+            </div>
+          </article>
+
+          <article class="project-card"
+            data-tags="point-of-care,iot,signal processing,portable,breath voc,lab-on-fiber">
+            <div class="card-top">
+              <div class="badge-row">
+                <span class="badge">Prototype</span>
+                <span class="badge">Future</span>
+              </div>
+              <a class="anchor-link" href="#p-portable">Details →</a>
+            </div>
+
+            <h3>Portable sensing pathway (miniaturization + integration)</h3>
+            <div class="meta">Concept · Toward point-of-care / home-based systems</div>
+
+            <ul class="bullets">
+              <li>Hardware/software integration plan: compact optics, control electronics, data pipeline.</li>
+              <li>Clinical translation considerations (sampling, calibration, drift, usability).</li>
+            </ul>
+
+            <div class="tags">
+              <span>#PointOfCare</span><span>#IoT</span><span>#SignalProcessing</span>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS STRIP -->
+    <section class="projects-section">
+      <div class="container">
+        <div class="highlights">
+          <div class="highlight">
+            <div class="kicker">Outputs</div>
+            <div class="value">Prototypes · Methods · Publications</div>
+          </div>
+          <div class="highlight">
+            <div class="kicker">Strength</div>
+            <div class="value">Fiber optics × materials × biosensing</div>
+          </div>
+          <div class="highlight">
+            <div class="kicker">Direction</div>
+            <div class="value">Personalized breath profiling + sustainable sensing</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAILS (ANCHOR SECTIONS) -->
+    <section class="projects-section alt" id="details">
+      <div class="container">
+        <div class="section-head">
+          <h2>Project details</h2>
+          <p class="muted">Structured blocks for consistent reading and later expansion.</p>
+        </div>
+
+        <article class="detail-block" id="p-lof-breath">
+          <div class="detail-main">
+            <h3>Lab-on-Fiber breath VOC profiling</h3>
+            <p>
+              Placeholder: Brief narrative on the sensing principle, target VOC classes, and the system-level approach
+              (sampling → preconcentration/desorption → optical readout → analytics).
+            </p>
+
+            <h4>Key ideas</h4>
+            <ul>
+              <li>Hybrid photonic–plasmonic resonant platform for enhanced readout.</li>
+              <li>Nano-engineered selective layer design (e.g., MOF/AuNP hybrids) guided by VOC physicochemical
+                properties.</li>
+              <li>Translation pathway: correlation with GC–MS + longitudinal profiling for prognosis.</li>
+            </ul>
+          </div>
+
+          <aside class="detail-side">
+            <div class="snapshot">
+              <div class="row"><span>Role</span><span>Lead researcher</span></div>
+              <div class="row"><span>Funding</span><span>Alexander von Humboldt</span></div>
+              <div class="row"><span>Duration</span><span>2024–present</span></div>
+              <div class="row"><span>Core tech</span><span>Lab-on-fiber · resonators · nano-interfaces</span></div>
+              <div class="row"><span>Links</span>
+                <span>
+                  <a href="publications.html">Publications</a> ·
+                  <a href="contact.html">Contact</a>
+                </span>
+              </div>
+            </div>
+          </aside>
+        </article>
+
+        <article class="detail-block" id="p-soilmonitor">
+          <div class="detail-main">
+            <h3>SOILMONITOR: microfluidic assays for soil nutrient monitoring</h3>
+            <p>
+              Placeholder: Describe assay chemistry, interference handling, microfluidic integration constraints,
+              and calibration/field workflow.
+            </p>
+            <h4>Key ideas</h4>
+            <ul>
+              <li>Assay designs optimized for miniaturization (low reagent volume, stable readout).</li>
+              <li>Field-ready protocol development for sustainable agriculture monitoring.</li>
+            </ul>
+          </div>
+
+          <aside class="detail-side">
+            <div class="snapshot">
+              <div class="row"><span>Role</span><span>Contributor (assay design)</span></div>
+              <div class="row"><span>Funding</span><span>EU SOILMONITOR</span></div>
+              <div class="row"><span>Duration</span><span>2024–2025</span></div>
+              <div class="row"><span>Core tech</span><span>Microfluidics · chemical assays</span></div>
+            </div>
+          </aside>
+        </article>
+
+        <article class="detail-block" id="p-lmr-array">
+          <div class="detail-main">
+            <h3>LMR biosensor array platform (SERB NPDF)</h3>
+            <p>Placeholder: platform architecture, multiplexing logic, and validation targets.</p>
+          </div>
+          <aside class="detail-side">
+            <div class="snapshot">
+              <div class="row"><span>Funding</span><span>SERB NPDF</span></div>
+              <div class="row"><span>Duration</span><span>2019–2021</span></div>
+            </div>
+          </aside>
+        </article>
+
+        <article class="detail-block" id="p-phd-zno">
+          <div class="detail-main">
+            <h3>Ph.D.: SPR/LMR fiber sensors with ZnO interfaces</h3>
+            <p>Placeholder: transduction physics + materials engineering approach + representative outcomes.</p>
+          </div>
+          <aside class="detail-side">
+            <div class="snapshot">
+              <div class="row"><span>Institution</span><span>IIT Delhi</span></div>
+              <div class="row"><span>Duration</span><span>2014–2018</span></div>
+            </div>
+          </aside>
+        </article>
+
+        <article class="detail-block" id="p-materials">
+          <div class="detail-main">
+            <h3>Nano-engineered interfaces (MOFs, AuNPs, bioinspired materials)</h3>
+            <p>Placeholder: selection principles (sorption, polarity, pore size), stability, and coating strategy.</p>
+          </div>
+          <aside class="detail-side">
+            <div class="snapshot">
+              <div class="row"><span>Theme</span><span>Cross-cutting</span></div>
+              <div class="row"><span>Use</span><span>Selectivity + enhancement</span></div>
+            </div>
+          </aside>
+        </article>
+
+        <article class="detail-block" id="p-portable">
+          <div class="detail-main">
+            <h3>Portable sensing pathway (miniaturization + integration)</h3>
+            <p>Placeholder: system miniaturization, heater/desorption, embedded control, and analytics pipeline.</p>
+          </div>
+          <aside class="detail-side">
+            <div class="snapshot">
+              <div class="row"><span>Status</span><span>Concept / roadmap</span></div>
+              <div class="row"><span>Focus</span><span>PoC usability + repeatability</span></div>
+            </div>
+          </aside>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="projects-section">
+      <div class="container">
+        <div class="collab">
+          <div>
+            <h2>Collaboration</h2>
+            <p class="muted">
+              Interested in collaborating on fiber-integrated sensing, breath analysis, or nano-engineered interfaces?
+            </p>
+          </div>
+          <a class="btn primary" href="mailto:srus@tf.uni-kiel.de">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+
+      <div class="footer-logos" aria-label="Affiliations and funding institutions">
+        <img src="assets/img/uni_kiel_logo.png" alt="Kiel University – Christian-Albrechts-Universität zu Kiel" />
+        <img src="assets/img/humboldt_logo.png" alt="Alexander von Humboldt Foundation" />
+        <img src="assets/img/iitm_logo.png" alt="Indian Institute of Technology Madras" />
+        <img src="assets/img/iitd_logo.png" alt="Indian Institute of Technology Delhi" />
+      </div>
+
+      <div class="footer-text">
+        © Dr. Sruthi Prasood Usha
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/projects.js"></script>
+</body>
+
+</html>
