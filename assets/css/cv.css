@@ -1,0 +1,140 @@
+/* assets/css/cv.css */
+
+.cv-page {
+    padding-top: 1rem;
+}
+
+/* hero */
+.cv-hero {
+    padding: 1.4rem 0 1.1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.cv-hero-grid {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1.25rem;
+    align-items: start;
+}
+
+.cv-actions {
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.lede {
+    margin-top: 0.65rem;
+    max-width: 860px;
+}
+
+/* sections */
+.cv-section {
+    padding: 1.25rem 0 1.5rem;
+}
+
+.cv-section.alt {
+    background: linear-gradient(to right,
+            rgba(31, 79, 216, 0.04),
+            rgba(107, 79, 216, 0.04));
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+
+.cv-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: #fff;
+    padding: 0.95rem;
+    max-width: 980px;
+}
+
+/* key-value grid */
+.kv {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.85rem 1.2rem;
+    margin: 0;
+}
+
+.kv>div {
+    display: grid;
+    gap: 0.2rem;
+}
+
+.kv dt {
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.kv dd {
+    margin: 0;
+    font-weight: 600;
+    color: var(--text);
+}
+
+.kv a {
+    color: var(--primary);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+/* timeline */
+.timeline {
+    display: grid;
+    gap: 0.85rem;
+    max-width: 980px;
+}
+
+.entry {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: #fff;
+    padding: 0.95rem;
+}
+
+.when {
+    font-weight: 800;
+    color: var(--text);
+}
+
+.what h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    color: var(--text);
+}
+
+.place {
+    margin-top: 0.35rem;
+    color: var(--muted);
+}
+
+.what ul {
+    margin: 0.55rem 0 0;
+    padding-left: 1.1rem;
+    color: var(--muted);
+}
+
+@media (max-width: 900px) {
+    .cv-hero-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .cv-actions {
+        justify-content: flex-start;
+    }
+
+    .kv {
+        grid-template-columns: 1fr;
+    }
+
+    .entry {
+        grid-template-columns: 1fr;
+    }
+}

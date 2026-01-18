@@ -1,0 +1,1254 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-01-18T15:37:54.878882+00:00",
+  "source_files": {
+    "orcid_record": "orcid_record.json",
+    "orcid_works_flat": "orcid_works_flat.json",
+    "bibtex": "publications.bib",
+    "orcid_bibtex": "orcid_works.bib"
+  },
+  "person": {
+    "name": "Sruthi Prasood Usha Kumari",
+    "orcid": "0000-0002-4335-535X",
+    "highlight_names": [
+      "Usha, Sruthi",
+      "Usha, Sruthi P",
+      "Usha, Sruthi Prasood",
+      "Sruthi Prasood Usha",
+      "Sruthi P. Usha"
+    ]
+  },
+  "items": [
+    {
+      "id": "sai2025fiber",
+      "title": "Fiber optic biosensor for ultra-low trace analyte detection",
+      "year": 2025,
+      "type": "other",
+      "raw": {
+        "orcid_type": null,
+        "bibtex_entry_type": "misc",
+        "orcid_put_code": null
+      },
+      "authors": [
+        "Sai, Raghavendra",
+        "USHA, Sruthi PRASOOD",
+        "Manoharan, Hariharan"
+      ],
+      "venue": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": null,
+        "visibility": null
+      }
+    },
+    {
+      "id": "chen2024developing",
+      "title": "Developing innovative point-of-care electrochemical sensors empowered by cardiac troponin I-responsive nanocomposite materials",
+      "year": 2024,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 174483731
+      },
+      "authors": [
+        "Chen, Johana Ng",
+        "Hasabnis, Gauri Kishore",
+        "Akin, Eda",
+        "Gao, Guiyang",
+        "Usha, Sruthi Prasood",
+        "S{\\\"u}ssmuth, Roderich",
+        "Altintas, Zeynep"
+      ],
+      "venue": "Sensors and Actuators B: Chemical",
+      "volume": "417",
+      "issue": null,
+      "pages": "136052",
+      "publisher": "Elsevier",
+      "doi": "10.1016/j.snb.2024.136052",
+      "url": "http://dx.doi.org/10.1016/j.snb.2024.136052",
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": "https://doi.org/10.1016/j.snb.2024.136052"
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "moldovean2024affinity",
+      "title": "Affinity Materials: From Natural Recognition Elements to Synthetic Counterparts",
+      "year": 2024,
+      "type": "other",
+      "raw": {
+        "orcid_type": null,
+        "bibtex_entry_type": "incollection",
+        "orcid_put_code": null
+      },
+      "authors": [
+        "Moldovean-Cioroianu, Nastasia Sanda",
+        "Usha, Sruthi Prasood",
+        "Altintas, Zeynep"
+      ],
+      "venue": "Molecularly Imprinted Polymers: Computational Studies to Advanced Applications",
+      "volume": null,
+      "issue": null,
+      "pages": "13--32",
+      "publisher": "Springer International Publishing Cham",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": null,
+        "visibility": null
+      }
+    },
+    {
+      "id": "orcid_131864588",
+      "title": "Metal–Organic Framework-Based Fiber Optic Sensor for Chromium(VI) Detection",
+      "year": 2023,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": null,
+        "orcid_put_code": 131864588
+      },
+      "authors": [],
+      "venue": "ACS Sensors",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": null,
+      "doi": "10.1021/acssensors.2c02170",
+      "url": "http://dx.doi.org/10.1021/acssensors.2c02170",
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": "https://doi.org/10.1021/acssensors.2c02170"
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "menon2023metal",
+      "title": "Metal--organic framework-based fiber optic sensor for chromium (VI) detection",
+      "year": 2023,
+      "type": "journal",
+      "raw": {
+        "orcid_type": null,
+        "bibtex_entry_type": "article",
+        "orcid_put_code": null
+      },
+      "authors": [
+        "Menon, Swetha",
+        "Usha, Sruthi Prasood",
+        "Manoharan, Hariharan",
+        "Kishore, Pabbisetti Vayu Nandana",
+        "Sai, VVR"
+      ],
+      "venue": "ACS sensors",
+      "volume": "8",
+      "issue": "2",
+      "pages": "684--693",
+      "publisher": "American Chemical Society",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": null,
+        "visibility": null
+      }
+    },
+    {
+      "id": "venkat2022silica",
+      "title": "Silica and polymeric fiber optic refractometric sensor probes: Performance evaluation",
+      "year": 2022,
+      "type": "conference",
+      "raw": {
+        "orcid_type": null,
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": null
+      },
+      "authors": [
+        "Venkat, N Thrilok",
+        "Menon, Swetha",
+        "Gowri, A",
+        "Usha, Sruthi Prasood",
+        "Sai, VVR",
+        "others"
+      ],
+      "venue": "2022 Workshop on Recent Advances in Photonics (WRAP)",
+      "volume": null,
+      "issue": null,
+      "pages": "1--2",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": null,
+        "visibility": null
+      }
+    },
+    {
+      "id": "usha2021attomolar",
+      "title": "Attomolar analyte sensing techniques (AttoSens): A review on a decade of progress on chemical and biosensing nanoplatforms",
+      "year": 2021,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 108472106
+      },
+      "authors": [
+        "Usha, Sruthi Prasood",
+        "Manoharan, Hariharan",
+        "Deshmukh, Rehan",
+        "{\\'A}lvarez-Diduk, Ruslan",
+        "Calucho, Enric",
+        "Sai, VVR",
+        "Merko{\\c{c}}i, Arben"
+      ],
+      "venue": "Chemical Society Reviews",
+      "volume": "50",
+      "issue": "23",
+      "pages": "13012--13089",
+      "publisher": "Royal Society of Chemistry",
+      "doi": "10.1039/D1CS00137J",
+      "url": "https://doi.org/10.1039/D1CS00137J",
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": "https://doi.org/10.1039/D1CS00137J"
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Crossref",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2018urinary",
+      "title": "Urinary p-cresol diagnosis using nanocomposite of ZnO/MoS2 and molecular imprinted polymer on optical fiber based lossy mode resonance sensor",
+      "year": 2018,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374482
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Biosensors and Bioelectronics",
+      "volume": "101",
+      "issue": null,
+      "pages": "135--145",
+      "publisher": "Elsevier",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "baliyan2018surface",
+      "title": "Surface plasmon resonance based fiber optic sensor for the detection of triacylglycerides utilizing Ag/ZnO nanorods/lipase enzyme (Conference Presentation)",
+      "year": 2018,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374480
+      },
+      "authors": [
+        "Baliyan, Anjli",
+        "Usha, Sruthi P",
+        "Gupta, Banshi D",
+        "Sharma, Enakshi Khular"
+      ],
+      "venue": "Plasmonics in Biology and Medicine XV",
+      "volume": "10509",
+      "issue": null,
+      "pages": "105090J",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "orcid_87374485",
+      "title": "Surface plasmon and lossy mode resonance based fiber optic chemical and biosensors utilizing zinc oxide",
+      "year": 2018,
+      "type": "thesis",
+      "raw": {
+        "orcid_type": "dissertation-thesis",
+        "bibtex_entry_type": null,
+        "orcid_put_code": 87374485
+      },
+      "authors": [],
+      "venue": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2018semiconductor",
+      "title": "Semiconductor metal oxide/polymer based fiber optic lossy mode resonance sensors: A contemporary study",
+      "year": 2018,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374484
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Shrivastav, Anand M",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Optical Fiber Technology",
+      "volume": "45",
+      "issue": null,
+      "pages": "146--166",
+      "publisher": "Academic Press",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2017silver",
+      "title": "Silver nanoparticle noduled ZnO nanowedge fetched novel FO-LMR based H2O2 biosensor: A twin regime sensor for in-vivo applications and H2O2 generation analysis from polyphenolic daily devouring beverages",
+      "year": 2017,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374474
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Shrivastav, Anand M",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Sensors and Actuators B: Chemical",
+      "volume": "241",
+      "issue": null,
+      "pages": "129--145",
+      "publisher": "Elsevier",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2017performance",
+      "title": "Performance analysis of zinc oxide-implemented lossy mode resonance-based optical fiber refractive index sensor utilizing thin film/nanostructure",
+      "year": 2017,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374483
+      },
+      "authors": [
+        "Usha, Sruthi Prasood",
+        "Gupta, Banshi Dhar"
+      ],
+      "venue": "Applied optics",
+      "volume": "56",
+      "issue": "20",
+      "pages": "5716--5725",
+      "publisher": "OSA",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "gupta2017optical",
+      "title": "Optical sensors for biomedical diagnostics and environmental monitoring",
+      "year": 2017,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "other",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374479
+      },
+      "authors": [
+        "Gupta, Banshi Dhar",
+        "Shrivastav, Anand Mohan",
+        "Usha, Sruthi Prasood"
+      ],
+      "venue": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "publisher": "CRC Press",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "baliyan2017localized",
+      "title": "Localized surface plasmon resonance--based fiber-optic sensor for the detection of triacylglycerides using silver nanoparticles",
+      "year": 2017,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374478
+      },
+      "authors": [
+        "Baliyan, Anjli",
+        "Usha, Sruthi Prasood",
+        "Gupta, Banshi D",
+        "Gupta, Rani",
+        "Sharma, Enakshi Khular"
+      ],
+      "venue": "Journal of Biomedical Optics",
+      "volume": "22",
+      "issue": "10",
+      "pages": "107001--107001",
+      "publisher": "Society of Photo-Optical Instrumentation Engineers",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "shrivastav2017highly",
+      "title": "Highly sensitive and selective erythromycin nanosensor employing fiber optic SPR/ERY imprinted nanostructure: Application in milk and honey",
+      "year": 2017,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374476
+      },
+      "authors": [
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Biosensors and Bioelectronics",
+      "volume": "90",
+      "issue": null,
+      "pages": "516--524",
+      "publisher": "Elsevier",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "sharma2017novel",
+      "title": "A novel method of SPR based SnO2: GNP nano-hybrid decorated optical fiber platform for hexachlorobenzene sensing",
+      "year": 2017,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374477
+      },
+      "authors": [
+        "Sharma, Sonika",
+        "Usha, Sruthi P",
+        "Shrivastav, Anand M",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Sensors and Actuators B: Chemical",
+      "volume": "246",
+      "issue": null,
+      "pages": "927--936",
+      "publisher": "Elsevier",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2017contemporary",
+      "title": "A contemporary approach for design and characterization of fiber-optic-cortisol sensor tailoring LMR and ZnO/PPY molecularly imprinted film",
+      "year": 2017,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374469
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Shrivastav, Anand M",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Biosensors and Bioelectronics",
+      "volume": "87",
+      "issue": null,
+      "pages": "178--186",
+      "publisher": "Elsevier",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "gupta2016surface",
+      "title": "Surface plasmon resonance-based fiber optic sensors utilizing molecular imprinting",
+      "year": 2016,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374472
+      },
+      "authors": [
+        "Gupta, Banshi D",
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P"
+      ],
+      "venue": "Sensors",
+      "volume": "16",
+      "issue": "9",
+      "pages": "1381",
+      "publisher": "MDPI",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "shrivastav2016spr",
+      "title": "SPR and molecular imprinting based fiber optic sensor for copper ion detection",
+      "year": 2016,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374471
+      },
+      "authors": [
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Australian Conference on Optical Fibre Technology",
+      "volume": null,
+      "issue": null,
+      "pages": "AT3C--6",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "shrivastav2016optical",
+      "title": "Optical fiber SPR sensor for simultaneous determination of Cu (II) and Pb (II) ions using molecular imprinting",
+      "year": 2016,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374475
+      },
+      "authors": [
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Laser Science",
+      "volume": null,
+      "issue": null,
+      "pages": "JTh2A--53",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "gupta2016molecular",
+      "title": "Molecular imprinting and SPR based fiber optic sensor for 1-naphthol",
+      "year": 2016,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374473
+      },
+      "authors": [
+        "Gupta, Banshi D",
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P"
+      ],
+      "venue": "Laser Science",
+      "volume": null,
+      "issue": null,
+      "pages": "JTh2A--44",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2016lmr",
+      "title": "LMR based hydrogen peroxide sensor using ZnO/Ag nanostructures",
+      "year": 2016,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374470
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Shrivastav, Anand M",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Australian Conference on Optical Fibre Technology",
+      "volume": null,
+      "issue": null,
+      "pages": "AT3C--4",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "shrivastav2016fiber",
+      "title": "Fiber optic profenofos sensor based on surface plasmon resonance technique and molecular imprinting",
+      "year": 2016,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374464
+      },
+      "authors": [
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Biosensors and Bioelectronics",
+      "volume": "79",
+      "issue": null,
+      "pages": "150--157",
+      "publisher": "Elsevier",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "shrivastav2016fiber",
+      "title": "Fiber optic SPR sensor for detection of triclosan using molecular imprinted polymeric layer",
+      "year": 2016,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374459
+      },
+      "authors": [
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Australian Conference on Optical Fibre Technology",
+      "volume": null,
+      "issue": null,
+      "pages": "AT5C--7",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "gupta2016fiber",
+      "title": "Fiber optic SPR nanosensor for erythromycin detection using molecularly imprinted nanoparticles",
+      "year": 2016,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374458
+      },
+      "authors": [
+        "Gupta, Banshi D",
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P"
+      ],
+      "venue": "CLEO: Science and Innovations",
+      "volume": null,
+      "issue": null,
+      "pages": "SM4P--7",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2016fo",
+      "title": "FO-SPR based dextrose sensor using Ag/ZnO nanorods/GOx for insulinoma detection",
+      "year": 2016,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374466
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Shrivastav, Anand M",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Biosensors and Bioelectronics",
+      "volume": "85",
+      "issue": null,
+      "pages": "986--995",
+      "publisher": "Elsevier",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2016fo",
+      "title": "FO-LMR based chlorine gas sensor using zinc oxide nanostructure",
+      "year": 2016,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374460
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Shrivastav, Anand M",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Frontiers in Optics",
+      "volume": null,
+      "issue": null,
+      "pages": "JTh2A--52",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "gupta2016novel",
+      "title": "A novel approach of LMR/MIP for optical fiber based salivary cortisol sensor",
+      "year": 2016,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374467
+      },
+      "authors": [
+        "Gupta, Banshi D",
+        "Usha, Sruthi P",
+        "Shrivastav, Anand M"
+      ],
+      "venue": "CLEO: applications and technology",
+      "volume": null,
+      "issue": null,
+      "pages": "JTu5A--145",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "mishra2016lossy",
+      "title": "A lossy mode resonance-based fiber optic hydrogen gas sensor for room temperature using coatings of ITO thin film and nanoparticles",
+      "year": 2016,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374465
+      },
+      "authors": [
+        "Mishra, Satyendra K",
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Measurement Science and Technology",
+      "volume": "27",
+      "issue": "4",
+      "pages": "045103",
+      "publisher": "IOP Publishing",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "shrivastav2016localized",
+      "title": "A localized and propagating SPR, and molecular imprinting based fiber-optic ascorbic acid sensor using an in situ polymerized polyaniline--Ag nanocomposite",
+      "year": 2016,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374468
+      },
+      "authors": [
+        "Shrivastav, Anand M",
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Nanotechnology",
+      "volume": "27",
+      "issue": "34",
+      "pages": "345501",
+      "publisher": "IOP Publishing",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2015zinc",
+      "title": "Zinc oxide thin film/nanorods based lossy mode resonance hydrogen sulphide gas sensor",
+      "year": 2015,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374462
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Mishra, Satyendra K",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Materials research express",
+      "volume": "2",
+      "issue": "9",
+      "pages": "095003",
+      "publisher": "IOP Publishing",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2015fiber",
+      "title": "Fiber optic hydrogen sulfide gas sensors utilizing ZnO thin film/ZnO nanoparticles: A comparison of surface plasmon resonance and lossy mode resonance",
+      "year": 2015,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374461
+      },
+      "authors": [
+        "Usha, Sruthi Prasood",
+        "Mishra, Satyendra K",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Sensors and Actuators B: Chemical",
+      "volume": "218",
+      "issue": null,
+      "pages": "196--204",
+      "publisher": "Elsevier",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2015fiber",
+      "title": "Fiber Optic SPR Based P-Cresol Sensor Using Ag/ZnO Nanoparticle-Chitosan/Tyrosinanse",
+      "year": 2015,
+      "type": "conference",
+      "raw": {
+        "orcid_type": "conference-paper",
+        "bibtex_entry_type": "inproceedings",
+        "orcid_put_code": 87374463
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Gupta, Banshi D"
+      ],
+      "venue": "JSAP-OSA Joint Symposia",
+      "volume": null,
+      "issue": null,
+      "pages": "13p\\_2C\\_12",
+      "publisher": null,
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    },
+    {
+      "id": "usha2015fabrication",
+      "title": "Fabrication and characterization of a SPR based fiber optic sensor for the detection of chlorine gas using silver and zinc oxide",
+      "year": 2015,
+      "type": "journal",
+      "raw": {
+        "orcid_type": "journal-article",
+        "bibtex_entry_type": "article",
+        "orcid_put_code": 87374457
+      },
+      "authors": [
+        "Usha, Sruthi P",
+        "Mishra, Satyendra K",
+        "Gupta, Banshi D"
+      ],
+      "venue": "Materials",
+      "volume": "8",
+      "issue": "5",
+      "pages": "2204--2216",
+      "publisher": "MDPI",
+      "doi": null,
+      "url": null,
+      "links": {
+        "pdf": null,
+        "code": null,
+        "slides": null,
+        "doi": null
+      },
+      "selected": false,
+      "tags": [],
+      "source": {
+        "orcid_source_name": "Sruthi",
+        "visibility": "public"
+      }
+    }
+  ]
+}
