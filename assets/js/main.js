@@ -12,7 +12,7 @@ const HEADER_HTML = `
 
     <div class="brand">
       <a href="index.html" class="brand-link" aria-label="Go to homepage">
-        <img src="assets/img/owl-only.svg" alt="Owl logo" class="logo" />
+        <img src="assets/img/nanos-logo.svg" alt="Nanos logo" class="logo" />
         <div class="brand-text">
           <span class="brand-line primary">Dr. Sruthi</span>
           <span class="brand-line secondary">Prasood</span>
