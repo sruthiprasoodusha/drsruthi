@@ -1,0 +1,154 @@
+/* -------------------------------------------------------
+   students.css – Student / Researcher Profiles page
+   ------------------------------------------------------- */
+
+/* Page header */
+.students-hero {
+  padding: 2rem 0 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.students-hero h1 {
+  margin-bottom: 0.5rem;
+}
+
+.students-hero p {
+  max-width: 680px;
+}
+
+/* Section headings (PhD, Master, Bachelor …) */
+.students-section {
+  padding: 2rem 0 0.5rem;
+}
+
+.students-section h2 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+/* Profile card: photo left, info right */
+.profile-card {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 1.5rem;
+  align-items: start;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.profile-card:last-child {
+  border-bottom: none;
+}
+
+/* Photo column */
+.profile-photo {
+  width: 160px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  background: #f0f0f0;   /* placeholder colour before image loads */
+  display: block;
+}
+
+/* Placeholder when no photo supplied */
+.profile-photo-placeholder {
+  width: 160px;
+  height: 180px;
+  border-radius: 6px;
+  background: linear-gradient(135deg,
+      rgba(31, 79, 216, 0.08),
+      rgba(107, 79, 216, 0.12));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 2.5rem;
+}
+
+/* Info column */
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.profile-name {
+  font-size: 1.15rem;
+  font-weight: 650;
+  color: var(--text);
+  margin: 0;
+}
+
+.profile-role {
+  font-size: 0.9rem;
+  color: var(--primary);
+  font-weight: 550;
+}
+
+.profile-topic {
+  font-size: 0.88rem;
+  color: var(--muted);
+  font-style: italic;
+  margin-top: 0.1rem;
+}
+
+.profile-bio {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.55;
+  margin-top: 0.4rem;
+  max-width: 680px;
+}
+
+.profile-links {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.55rem;
+}
+
+.profile-links a {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  text-decoration: none;
+  color: var(--muted);
+  transition: all 0.15s ease;
+}
+
+.profile-links a:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.profile-period {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 0.2rem;
+}
+
+/* Alumni section – slightly muted */
+.alumni-section .profile-name {
+  color: var(--muted);
+}
+
+/* ── Responsive ── */
+@media (max-width: 640px) {
+  .profile-card {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .profile-photo,
+  .profile-photo-placeholder {
+    width: 120px;
+    height: 140px;
+  }
+}
